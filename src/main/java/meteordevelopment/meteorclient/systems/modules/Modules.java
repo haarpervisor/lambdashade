@@ -493,6 +493,7 @@ public class Modules extends System<Modules> {
     }
 
     private void initRender() {
+        add(new AutoLight());
         add(new BetterTooltips());
         add(new BlockSelection());
         add(new BossStack());
@@ -575,6 +576,7 @@ public class Modules extends System<Modules> {
         add(new AutoLog());
         add(new AutoReconnect());
         add(new AutoRespawn());
+        add(new AutoExtinguish());
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BetterTab());
@@ -589,6 +591,7 @@ public class Modules extends System<Modules> {
         add(new Notebot());
         add(new Notifier());
         add(new PacketCanceller());
+        add(new PortalGodMode());
         add(new SoundBlocker());
         add(new Spam());
         add(new ServerSpoof());
