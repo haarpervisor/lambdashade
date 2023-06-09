@@ -405,6 +405,7 @@ public class Modules extends System<Modules> {
         add(new HoleFiller());
         add(new KillAura());
         add(new KillAuraPlus());
+        add(new PacketHoleFill());
         add(new Offhand());
         add(new Quiver());
         add(new SelfAnvil());
@@ -456,6 +457,7 @@ public class Modules extends System<Modules> {
         add(new AntiVoid());
         add(new AutoJump());
         add(new AutoWalk());
+        add(new AutoStaircase());
         add(new Blink());
         add(new BoatFly());
         add(new BoatGlitch());
@@ -518,6 +520,7 @@ public class Modules extends System<Modules> {
         add(new NoRender());
         add(new NewChunks());
         add(new BlockESP());
+        add(new HoleRenderer());
         add(new StorageESP());
         add(new TimeChanger());
         add(new Tracers());
@@ -538,6 +541,7 @@ public class Modules extends System<Modules> {
     private void initWorld() {
         add(new AirPlace());
         add(new Ambience());
+        add(new AntiSpawnpoint());
         add(new Collisions());
         add(new AutoBreed());
         add(new AutoBrewer());
