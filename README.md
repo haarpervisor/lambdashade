@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://i.hizliresim.com/91rwjus.png" alt="lambdashade" width="15%"/>
 </p>
-## Warning: Due to release of 1.20 Lambda Shade will be completly rewritten
+# Warning: Due to release of 1.20 Lambda Shade will be completly rewritten
 <h1 align="center">Lambda Shade</h1>
 <p align="center">
     A Minecraft 1.19 Fabric Utility mod for Anarchy servers based on Meteor Client
