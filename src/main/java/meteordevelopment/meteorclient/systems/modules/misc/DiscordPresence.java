@@ -80,7 +80,7 @@ public class DiscordPresence extends Module {
     private final Setting<List<String>> line2Strings = sgLine2.add(new StringListSetting.Builder()
         .name("line-2-messages")
         .description("Messages used for the second line.")
-        .defaultValue("Lambda Shade on Crack!", "{round(server.tps, 1)} TPS", "Playing on {server.difficulty} difficulty.", "{server.player_count} Players online")
+        .defaultValue("Meteor on Crack!", "{round(server.tps, 1)} TPS", "Playing on {server.difficulty} difficulty.", "{server.player_count} Players online")
         .onChanged(strings -> recompileLine2())
         .renderer(StarscriptTextBoxRenderer.class)
         .build()
@@ -121,7 +121,7 @@ public class DiscordPresence extends Module {
     }
 
     public DiscordPresence() {
-        super(Categories.Misc, "discord-presence", "Displays Lambda Shade as your presence on Discord.");
+        super(Categories.Misc, "discord-presence", "Displays Meteor as your presence on Discord.");
 
         runInMainMenu = true;
     }
@@ -153,7 +153,7 @@ public class DiscordPresence extends Module {
         if (!MeteorClient.DEV_BUILD.isEmpty()) largeText += " Dev Build: " + MeteorClient.DEV_BUILD;
         rpc.setLargeImage("meteor_client", largeText);
 
-        currentSmallImage = SmallImage.IKER;
+        currentSmallImage = SmallImage.Snail;
 
         recompileLine1();
         recompileLine2();
@@ -252,7 +252,7 @@ public class DiscordPresence extends Module {
                 else if (mc.currentScreen instanceof MultiplayerScreen) rpc.setState("Selecting server");
                 else if (mc.currentScreen instanceof AddServerScreen) rpc.setState("Adding server");
                 else if (mc.currentScreen instanceof ConnectScreen || mc.currentScreen instanceof DirectConnectScreen) rpc.setState("Connecting to server");
-                else if (mc.currentScreen instanceof WidgetScreen) rpc.setState("Browsing Lambda Shade's GUI");
+                else if (mc.currentScreen instanceof WidgetScreen) rpc.setState("Browsing Meteor's GUI");
                 else if (mc.currentScreen instanceof OptionsScreen || mc.currentScreen instanceof SkinOptionsScreen || mc.currentScreen instanceof SoundOptionsScreen || mc.currentScreen instanceof VideoOptionsScreen || mc.currentScreen instanceof ControlsOptionsScreen || mc.currentScreen instanceof LanguageOptionsScreen || mc.currentScreen instanceof ChatOptionsScreen || mc.currentScreen instanceof PackScreen || mc.currentScreen instanceof AccessibilityOptionsScreen) rpc.setState("Changing options");
                 else if (mc.currentScreen instanceof CreditsScreen) rpc.setState("Reading credits");
                 else if (mc.currentScreen instanceof RealmsScreen) rpc.setState("Browsing Realms");
@@ -295,8 +295,8 @@ public class DiscordPresence extends Module {
     }
 
     private enum SmallImage {
-        Choroalp("Choroalp", "Choroalp"),
-        IKER("IKER_Luvely", "IKER_Bitch");
+        MineGame("minegame", "MineGame159"),
+        Snail("seasnail", "seasnail8169");
 
         private final String key, text;
 
@@ -310,8 +310,8 @@ public class DiscordPresence extends Module {
         }
 
         SmallImage next() {
-            if (this == Choroalp) return IKER;
-            return Choroalp;
+            if (this == MineGame) return Snail;
+            return MineGame;
         }
     }
 }

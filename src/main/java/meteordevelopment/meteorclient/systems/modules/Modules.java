@@ -391,10 +391,8 @@ public class Modules extends System<Modules> {
         add(new AutoEXP());
         add(new AutoTotem());
         add(new AutoTrap());
-        add(new AutoBedTrap());
         add(new AutoWeapon());
         add(new AutoWeb());
-        add(new AutoTNT());
         add(new BedAura());
         add(new BowAimbot());
         add(new BowSpam());
@@ -404,8 +402,6 @@ public class Modules extends System<Modules> {
         add(new Hitboxes());
         add(new HoleFiller());
         add(new KillAura());
-        add(new KillAuraPlus());
-        add(new PacketHoleFill());
         add(new Offhand());
         add(new Quiver());
         add(new SelfAnvil());
@@ -421,9 +417,7 @@ public class Modules extends System<Modules> {
         add(new AutoGap());
         add(new AutoMend());
         add(new AutoReplenish());
-        add(new AutoGrind());
         add(new AutoTool());
-        add(new AfkLogout());
         add(new ChestSwap());
         add(new EXPThrower());
         add(new FakePlayer());
@@ -437,38 +431,27 @@ public class Modules extends System<Modules> {
         add(new NoRotate());
         add(new OffhandCrash());
         add(new PacketMine());
-        add(new PauseOnUnloaded());
         add(new Portals());
         add(new PotionSaver());
         add(new PotionSpoof());
         add(new Reach());
         add(new Rotation());
         add(new SpeedMine());
-        add(new HushDisconnect());
-        add(new Confuse());
     }
 
     private void initMovement() {
         add(new AirJump());
         add(new Anchor());
-        add(new AntiCrash());
         add(new AntiAFK());
-        add(new AutoFloor());
         add(new AntiVoid());
         add(new AutoJump());
         add(new AutoWalk());
-        add(new AutoStaircase());
         add(new Blink());
         add(new BoatFly());
-        add(new BoatGlitch());
-        add(new BoatPhase());
-        add(new BlockIn());
         add(new ClickTP());
         add(new ElytraBoost());
         add(new ElytraFly());
-        add(new ElytraPlus());
         add(new EntityControl());
-        add(new EntityPhase());
         add(new EntitySpeed());
         add(new FastClimb());
         add(new Flight());
@@ -482,8 +465,6 @@ public class Modules extends System<Modules> {
         add(new ReverseStep());
         add(new SafeWalk());
         add(new Scaffold());
-        add(new ScaffoldPlus());
-        //add(new ShieldBypass());
         add(new Slippy());
         add(new Sneak());
         add(new Speed());
@@ -495,7 +476,6 @@ public class Modules extends System<Modules> {
     }
 
     private void initRender() {
-        add(new AutoLight());
         add(new BetterTooltips());
         add(new BlockSelection());
         add(new BossStack());
@@ -518,9 +498,7 @@ public class Modules extends System<Modules> {
         add(new Marker());
         add(new Nametags());
         add(new NoRender());
-        add(new NewChunks());
         add(new BlockESP());
-        add(new HoleRenderer());
         add(new StorageESP());
         add(new TimeChanger());
         add(new Tracers());
@@ -528,7 +506,6 @@ public class Modules extends System<Modules> {
         add(new Trajectories());
         add(new UnfocusedCPU());
         add(new VoidESP());
-        add(new VisualEffects());
         add(new WallHack());
         add(new WaypointsModule());
         add(new Xray());
@@ -541,19 +518,15 @@ public class Modules extends System<Modules> {
     private void initWorld() {
         add(new AirPlace());
         add(new Ambience());
-        add(new AntiSpawnpoint());
         add(new Collisions());
         add(new AutoBreed());
         add(new AutoBrewer());
-        add(new AutoLavacast());
         add(new AutoMount());
         add(new AutoNametag());
         add(new AutoShearer());
         add(new AutoSign());
         add(new AutoSmelter());
-        add(new AutoWither());
         add(new BuildHeight());
-        //add(new CoordLogger());
         add(new EChestFarmer());
         add(new EndermanLook());
         add(new Flamethrower());
@@ -564,38 +537,29 @@ public class Modules extends System<Modules> {
         add(new Nuker());
         add(new StashFinder());
         add(new SpawnProofer());
-        add(new SoundLocator());
-        add(new SignColors());
         add(new Timer());
         add(new VeinMiner());
         add(new HighwayBuilder());
-        add(new InstantMiner());
     }
 
     private void initMisc() {
         add(new Swarm());
         add(new AntiPacketKick());
-        //add(new AntiVanish());
         add(new AutoClicker());
         add(new AutoLog());
         add(new AutoReconnect());
         add(new AutoRespawn());
-        add(new AutoExtinguish());
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BetterTab());
         add(new BookBot());
-        add(new CustomPackets());
-        add(new ContainerFailure());
         add(new DiscordPresence());
-        add(new Generator());
         add(new MessageAura());
         add(new MiddleClickFriend());
         add(new NameProtect());
         add(new Notebot());
         add(new Notifier());
         add(new PacketCanceller());
-        add(new PortalGodMode());
         add(new SoundBlocker());
         add(new Spam());
         add(new ServerSpoof());
