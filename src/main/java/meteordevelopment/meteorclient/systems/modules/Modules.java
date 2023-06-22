@@ -408,6 +408,7 @@ public class Modules extends System<Modules> {
         add(new SelfTrap());
         add(new SelfWeb());
         add(new Surround());
+        add(new YAKillAura());
     }
 
     private void initPlayer() {
@@ -418,7 +419,9 @@ public class Modules extends System<Modules> {
         add(new AutoMend());
         add(new AutoReplenish());
         add(new AutoTool());
+        add(new AutoGrind());
         add(new ChestSwap());
+        add(new ContainerCleaner());
         add(new EXPThrower());
         add(new FakePlayer());
         add(new FastUse());
@@ -448,6 +451,8 @@ public class Modules extends System<Modules> {
         add(new AutoWalk());
         add(new Blink());
         add(new BoatFly());
+        add(new BoatPhase());
+        add(new BoatGlitch());
         add(new ClickTP());
         add(new ElytraBoost());
         add(new ElytraFly());
@@ -518,6 +523,8 @@ public class Modules extends System<Modules> {
     private void initWorld() {
         add(new AirPlace());
         add(new Ambience());
+        add(new AutoWither());
+        add(new AutoLeave());
         add(new Collisions());
         add(new AutoBreed());
         add(new AutoBrewer());
@@ -549,6 +556,7 @@ public class Modules extends System<Modules> {
         add(new AutoLog());
         add(new AutoReconnect());
         add(new AutoRespawn());
+        add(new AntiCrash());
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BetterTab());
