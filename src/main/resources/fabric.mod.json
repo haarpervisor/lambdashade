@@ -1,13 +1,11 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
+  "name": "Lambda Shade",
   "id": "meteor-client",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "A Meteor Based Utility mode",
   "authors": [
-    "MineGame159",
-    "squidoodly",
-    "seasnail"
+    "Choroalp"
   ],
   "contact": {
     "homepage": "https://meteorclient.com",

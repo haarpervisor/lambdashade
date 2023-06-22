@@ -384,6 +384,7 @@ public class Modules extends System<Modules> {
         add(new AnchorAura());
         add(new AntiAnvil());
         add(new AntiBed());
+        add(new AutoBedTrap());
         add(new ArrowDodge());
         add(new AutoAnvil());
         add(new AutoArmor());
@@ -470,6 +471,7 @@ public class Modules extends System<Modules> {
         add(new ReverseStep());
         add(new SafeWalk());
         add(new Scaffold());
+        add(new ScaffoldPlus());
         add(new Slippy());
         add(new Sneak());
         add(new Speed());
@@ -491,6 +493,7 @@ public class Modules extends System<Modules> {
         add(new CityESP());
         add(new EntityOwner());
         add(new ESP());
+        add(new ExtraRender());
         add(new Freecam());
         add(new FreeLook());
         add(new Fullbright());
@@ -557,6 +560,7 @@ public class Modules extends System<Modules> {
         add(new AutoReconnect());
         add(new AutoRespawn());
         add(new AntiCrash());
+        add(new AntiBot());
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BetterTab());
