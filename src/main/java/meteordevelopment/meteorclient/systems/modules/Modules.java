@@ -436,11 +436,13 @@ public class Modules extends System<Modules> {
         add(new OffhandCrash());
         add(new PacketMine());
         add(new Portals());
+        add(new PortalGodMode());
         add(new PotionSaver());
         add(new PotionSpoof());
         add(new Reach());
         add(new Rotation());
         add(new SpeedMine());
+        add(new InventoryScroll());
     }
 
     private void initMovement() {
@@ -457,6 +459,9 @@ public class Modules extends System<Modules> {
         add(new ClickTP());
         add(new ElytraBoost());
         add(new ElytraFly());
+        add(new ElytraPlus());
+        add(new BlockIn());
+        add(new Boost());
         add(new EntityControl());
         add(new EntitySpeed());
         add(new FastClimb());
@@ -467,6 +472,7 @@ public class Modules extends System<Modules> {
         add(new LongJump());
         add(new NoFall());
         add(new NoSlow());
+        add(new NoSwing());
         add(new Parkour());
         add(new ReverseStep());
         add(new SafeWalk());
@@ -508,6 +514,7 @@ public class Modules extends System<Modules> {
         add(new NoRender());
         add(new BlockESP());
         add(new StorageESP());
+        add(new SkeletonESP());
         add(new TimeChanger());
         add(new Tracers());
         add(new Trail());
@@ -528,6 +535,7 @@ public class Modules extends System<Modules> {
         add(new Ambience());
         add(new AutoWither());
         add(new AutoLeave());
+        add(new AntiVanish());
         add(new Collisions());
         add(new AutoBreed());
         add(new AutoBrewer());
