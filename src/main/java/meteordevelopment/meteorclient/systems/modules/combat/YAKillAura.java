@@ -58,7 +58,7 @@ public class YAKillAura extends Module {
     );
 
     public YAKillAura() {
-        super(Categories.Combat,"ZKillaura", "Killaura.");
+        super(Categories.Combat,"YAKillaura", "Killaura.");
     }
 
     ArrayList<LivingEntity> list = new ArrayList<>();

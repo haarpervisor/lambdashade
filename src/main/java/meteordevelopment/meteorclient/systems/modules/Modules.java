@@ -419,11 +419,13 @@ public class Modules extends System<Modules> {
         add(new AutoGap());
         add(new AutoMend());
         add(new AutoPot());
+        add(new AutoHeal());
         add(new AutoReplenish());
         add(new AutoTool());
         add(new AutoGrind());
         add(new ChestSwap());
         add(new ContainerCleaner());
+        add(new CustomPackets());
         add(new EXPThrower());
         add(new FakePlayer());
         add(new FastUse());
@@ -529,6 +531,7 @@ public class Modules extends System<Modules> {
         add(new Blur());
         add(new PopChams());
         add(new TunnelESP());
+        add(new ShowLight());
     }
 
     private void initWorld() {
