@@ -15,8 +15,8 @@ import meteordevelopment.meteorclient.gui.widgets.containers.WTable;
 import meteordevelopment.meteorclient.gui.widgets.pressable.WButton;
 import meteordevelopment.meteorclient.gui.widgets.pressable.WMinus;
 import meteordevelopment.meteorclient.settings.Settings;
-import meteordevelopment.meteorclient.systems.macros.Macro;
-import meteordevelopment.meteorclient.systems.macros.Macros;
+import meteordevelopment.meteorclient.systems.modules.macros.Macro;
+import meteordevelopment.meteorclient.systems.modules.macros.Macros;
 import meteordevelopment.meteorclient.utils.misc.NbtUtils;
 import net.minecraft.client.gui.screen.Screen;
 

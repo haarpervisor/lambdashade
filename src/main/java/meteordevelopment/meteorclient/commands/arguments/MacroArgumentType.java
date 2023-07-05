@@ -12,8 +12,8 @@ import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.DynamicCommandExceptionType;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
-import meteordevelopment.meteorclient.systems.macros.Macro;
-import meteordevelopment.meteorclient.systems.macros.Macros;
+import meteordevelopment.meteorclient.systems.modules.macros.Macro;
+import meteordevelopment.meteorclient.systems.modules.macros.Macros;
 import net.minecraft.command.CommandSource;
 import net.minecraft.text.Text;
 

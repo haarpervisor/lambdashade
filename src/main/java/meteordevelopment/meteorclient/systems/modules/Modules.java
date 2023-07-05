@@ -418,6 +418,7 @@ public class Modules extends System<Modules> {
         add(new AutoFish());
         add(new AutoGap());
         add(new AutoMend());
+        add(new AutoPot());
         add(new AutoReplenish());
         add(new AutoTool());
         add(new AutoGrind());
@@ -535,6 +536,7 @@ public class Modules extends System<Modules> {
         add(new Ambience());
         add(new AutoWither());
         add(new AutoLeave());
+        add(new AutoExtinguish());
         add(new AntiVanish());
         add(new Collisions());
         add(new AutoBreed());
