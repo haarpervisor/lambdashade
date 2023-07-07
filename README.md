@@ -2,7 +2,7 @@
 <img src="https://i.hizliresim.com/91rwjus.png" alt="lambdashade" width="15%"/>
 </p>
 
-<h1 align="center">Lambda Shade</h1>h1>
+<h1 align="center">Lambda Shade</h1>
 <p align="center">
     A Minecraft 1.19 Fabric Utility mod for Anarchy servers based on Meteor Client
 </p>
