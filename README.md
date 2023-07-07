@@ -4,7 +4,7 @@
 
 <h1 align="center">Lambda Shade</h1>
 <p align="center">
-    A Minecraft 1.19 Fabric Utility mod for Anarchy servers based on Meteor Client
+    A Minecraft 1.20 Fabric Utility mod for Anarchy servers based on Meteor Client
 </p>
 
 ### Building
