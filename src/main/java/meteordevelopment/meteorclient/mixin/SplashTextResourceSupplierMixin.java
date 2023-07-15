@@ -39,7 +39,10 @@ public class SplashTextResourceSupplierMixin {
                 "Fuck you IKER",
                 "Stolas bird daddy",
                 "Better than Lunima",
-                "§6Choroalp is based"
+                "§6Choroalp is based",
+                "Powered by Copium™",
+                "Made with Lack of Vision",
+                "§2Cringe"
         );
     }
 

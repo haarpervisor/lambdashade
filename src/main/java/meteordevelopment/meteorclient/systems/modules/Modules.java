@@ -430,6 +430,7 @@ public class Modules extends System<Modules> {
         add(new FakePlayer());
         add(new FastUse());
         add(new GhostHand());
+        add(new GhostMode());
         add(new LiquidInteract());
         add(new MiddleClickExtra());
         add(new BreakDelay());
@@ -437,6 +438,7 @@ public class Modules extends System<Modules> {
         add(new NoMiningTrace());
         add(new NoRotate());
         add(new OffhandCrash());
+        add(new OnePunchVehicle());
         add(new PacketMine());
         add(new Portals());
         add(new PortalGodMode());
@@ -577,6 +579,8 @@ public class Modules extends System<Modules> {
         add(new BetterBeacons());
         add(new BetterChat());
         add(new BetterTab());
+        add(new ContainerFailure());
+        add(new CreativeCrash());
         add(new BookBot());
         add(new DiscordPresence());
         add(new MessageAura());
