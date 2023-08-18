@@ -392,6 +392,7 @@ public class Modules extends System<Modules> {
         add(new AutoEXP());
         add(new AutoTotem());
         add(new AutoTrap());
+        add(new AutoTNT());
         add(new AutoWeapon());
         add(new AutoWeb());
         add(new BedAura());
